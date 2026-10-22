@@ -30,6 +30,15 @@
       }
     ]
   },
+  "entity.fallen_meteor": {
+    "subtitle": "subtitles.galacticraft.entity.fallen_meteor",
+    "sounds": [
+      {
+        "name": "galacticraft:entity/fallen_meteor",
+        "stream": false
+      }
+    ]
+  },
   "entity.skeleton_boss.death": {
     "subtitle": "subtitles.galacticraft.entity.skeleton_boss.death",
     "sounds": [

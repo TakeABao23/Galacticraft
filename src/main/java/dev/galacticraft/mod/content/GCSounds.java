@@ -36,6 +36,7 @@ public class GCSounds {
     public static final SoundEvent AMBIENT_SINGLE_DRIP = register("ambient.single_drip");
     // Entity
     public static final SoundEvent ASTROMINER = register("entity.astrominer");
+    public static final SoundEvent FALLEN_METEOR = register("entity.fallen_meteor");
     public static final SoundEvent SKELETON_BOSS_DEATH = register("entity.skeleton_boss.death");
     public static final SoundEvent SKELETON_BOSS_LAUGH = register("entity.skeleton_boss.laugh");
     public static final SoundEvent SKELETON_BOSS_OOH = register("entity.skeleton_boss.ooh");

@@ -23,6 +23,7 @@
 package dev.galacticraft.mod.content.block.environment;
 
 import com.mojang.serialization.MapCodec;
+import dev.galacticraft.mod.content.GCSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;
@@ -114,7 +115,7 @@ public class FallenMeteorBlock extends FallingBlock implements SimpleWaterlogged
 
         level.playSound(fallingBlockEntity,
                 pos,
-                SoundEvents.METAL_FALL,
+                GCSounds.FALLEN_METEOR,
                 SoundSource.BLOCKS,
                 0.6F,
                 1.0F);
